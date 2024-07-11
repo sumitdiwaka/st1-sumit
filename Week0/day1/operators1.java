@@ -24,7 +24,7 @@ public class operators1 {
         //loops : for ,while,do while
       /*  int sum=0;
         for ( int i=1;i<=25;i++){
-            sum=sum+i;
+            sum=sum+i; 
             System.out.print(sum +",");
         }*/
         
