@@ -10,15 +10,15 @@ public class armstrong {
    return numberOfDigits;
 }
 public static boolean  checkArm(int n){
-    int temp=n;
+int temp=n;
 int d = countDigits(n);
 int sum=0;
 while(n!=0){
-    sum+=Math.pow((n%10),10);
+    sum+=Math.pow((n%10),d);
     n/=10;
 }
 
-return (sum==n);
+return (sum==temp);
 }
 public static void main(String[] args){
     int n=7;
