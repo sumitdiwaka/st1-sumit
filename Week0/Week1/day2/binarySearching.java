@@ -1,7 +1,7 @@
 package Week1.day2;
 
 public class binarySearching {
-    public static int binarySearchLowerBound(int arr[],int key){
+    public static int binarySearch(int arr[],int key){
         int start =0;
         int end = arr.length-1;
         while(start<=end){
@@ -19,7 +19,7 @@ public class binarySearching {
         public static void main(String[] args){
             int arr[] ={1,2,4,4,5,6,7};
         
-           System.err.println( binarySearchLowerBound(arr,6  ));
+           System.err.println( binarySearch(arr,6  ));
         }
     }
     
