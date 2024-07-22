@@ -6,13 +6,12 @@ public class SumOfSubarray {
             for(int j=i; j<arr.length;j++){
                 int sum=0;
                 for(int k=i; k<=j; k++){
+                  //  int sum =0;
                   sum+=arr[k];
                     System.out.print(sum+ " ");
-                    System.out.println();
                 }  
-                
-
-            }
+                System.out.println();
+               }
         }
 
     }
