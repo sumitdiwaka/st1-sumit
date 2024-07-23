@@ -21,7 +21,7 @@ public class binarySearchingOfLowerbound {
         public static void main(String[] args){
             int arr[] ={1,2,4,4,5,6,7};
         
-           System.err.println( binarySearchLowerBound(arr,78  ));
+           System.err.println( binarySearchLowerBound(arr,4  ));
         }
     }
     

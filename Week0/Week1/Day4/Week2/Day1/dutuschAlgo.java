@@ -25,15 +25,16 @@ public class dutuschAlgo {
                 high--;
             }
         }
-
-    }
+  }
    public static void display(int [] nums){
         for(int i=0;i<nums.length;i++){
-            System.out.print(nums[i]+ "");
+            System.out.print(nums[i]+ " ");
         }
+        System.out.println();
     }
     public static void main(String[] args) {
-        int [] arr = { 2,2,1,2,0,0,1,2,1,0};
+        int [] arr = {2,2,1,2,0,0,1,2,1,0};
+           display(arr);
            sortColours(arr);
            display(arr);
 
