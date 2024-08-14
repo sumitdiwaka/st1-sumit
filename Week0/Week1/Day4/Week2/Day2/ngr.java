@@ -9,7 +9,7 @@ public class ngr {
     }
     static void ngrNie(int [] nums, int arr[]){
         int maxR= 0;
-        for(int i =nums.length-1; i>=0;i--){
+        for(int i =nums.length-1; i>=0;i--){ 
             maxR= Math.max(maxR,nums[i]);
             arr[i] = maxR;
         }
